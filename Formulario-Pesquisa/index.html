@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8"> 
-    <title>Formulário de Pesquisa</title> 
+    <meta charset="UTF-8">
+    <title>Formulário de Pesquisa</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -11,4 +11,20 @@
     <h1 id="title">Paulo Weber Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+            <label id="email-label">E-mail<input id="email" type="email" placeholder="Enter your Email"
+                    required></label>
+            <label id="number-label">Age (opcional)<input id="number" type="number" min="13" max="120"
+                    placeholder="Age"></label>
+            <label id="dropdown">Which option best describes your current role?
+                <select id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Timer Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select> </label>
+        </fieldset>
 </body>
