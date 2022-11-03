@@ -1,0 +1,15 @@
+#nav-bar {
+    position: fixed;
+       top: 0;
+       min-height: 75px;
+       padding: 0px 20px;
+       display: flex;
+       align-items: center;
+       background-color: #eee;
+       }
+   
+   @media (max-width: 600px) {
+   body {
+   background-color: lightblue;
+   }
+   }
